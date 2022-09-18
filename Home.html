@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper link -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <!-- Main css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Main Font awesome link -->
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <title>kDonaughts</title>
+</head>
+<body>
+    <!-- Header section starts here -->
+     <header class="header">
+        <a class="logo"><i class="fa fa-birthday-cake" arial-hidden="true"></i>KDonaughts</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-birthday-cake" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" class="box" placeholder="search here....">
+        <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="cake9.jpg" alt="">
+                <div class="content">
+                    <h3>Birthday Cakes</h3>
+                    <span class="price">Ksh:600</span>
+                    <span class="quantity">qty:1</span>
+                 </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="cake8.jpg" alt="">
+                <div class="content">
+                    <h3>Singles</h3>
+                    <span class="price">Ksh:600</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="cake12.jpg" alt="">
+                <div class="content">
+                    <h3>Cup Cakes</h3>
+                    <span class="price">Ksh:600</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+             </div>
+        <div class="total"> total :Ksh1800</div>
+        <a href="#" class="btn">Checkout</a>
+        </div>
+         <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forgot Your Account?<a href="#">Click Here</a></p>
+            <p>don't have an account<a href="#">Create Now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form> 
+     </header>
+     <!-- Header section Ends Here -->
+
+     <!-- Home section Starts here -->
+
+     <section class="home" id="home">
+      <div class="content">
+        <h3>Yummy!! and <span>Amazing For You</span></h3>
+        <p>Welcom to <h4>KDonaughts</h4> Folks!! We have Amazing Cakes,Pondeseals,Cookies and Many More</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+     </section>
+     <!-- Home section ends here -->
+
+     <!-- Features section starts here -->
+     <section class="features" id="features">
+        <h1 class="heading">our <span>Features</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./collectio1.jpg" alt="">
+                <h3>Fresh and Sweet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aperiam, adipisci reprehenderit saepe ut voluptas quidem </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./delivery2.jpg" alt="">
+                <h3>Free Delivery</h3>
+                <p><h3>NB:Free Delivery within</h3>And at a reasonable price anywhere</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./payment1.jpg" alt="">
+                <h3>Payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aperiam, adipisci reprehenderit saepe </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+     </section>
+
+
+<!-- Features section ends here -->
+
+<!-- Products Section Starts Here -->
+<section class="products" id="products">
+    <h1 class="heading">Our <span>Products</span></h1>
+
+<!-- setion2 of products -->
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+            <!-- This swiper is responsible for aligning products in one line -->
+            <div class="swiper-slide box">
+                <img src="./cake10.jpg" alt="">
+                <h3>Chocolate Cake</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./cake12.jpg" alt="">
+                <h3>Cup Cakes</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./cake13.jpg" alt="">
+                <h3>Birthday Cake</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./cake14.jpg" alt="">
+                <h3>Wedding Cake</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./cake11.jpg" alt="">
+                <h3>Emoji Cakes</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- setion2 of products -->
+    <div class=" swiper product-slider">
+
+        <div class="swiper-wrapper">
+            <!-- This swiper is responsible for aligning products in one line also to be small images-->
+            <div class="swiper-slide box">
+                <img src="./oreocake1.jpg" alt="">
+                <h3>Chocolate oreo Cake</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./oreocake3.jpg" alt="">
+                <h3>Oreo Cakes</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./pondeseal.jpg" alt="">
+                <h3>Pondeseals</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./pondeseal2.jpg" alt="">
+                <h3>Scones</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star fa-star-half"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./pie1.jpg" alt="">
+                <h3>Pie</h3>
+                <div class="price">Ksh:1500</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Products Section Ends Here -->
+
+<!-- Category Section Starts Here -->
+<section class="categories" id="categories">
+
+<div class="heading">Product <Span>Categories</Span></div>
+    <div class="box-container">
+        <div class="box">
+            <img src="./harusi1.jpg" alt="">
+            <h3>Wedding Cakes</h3>
+            <p>Upto 30% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="./bdday1.jpg" alt="">
+            <h3>Birthday Cakes</h3>
+            <p>Upto 30% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="./cookies2.jpg" alt="">
+            <h3>Crunchy Cookies</h3>
+            <p>Upto 30% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="./oreo2.jpg" alt="">
+            <h3>Oreo Cookies</h3>
+            <p>Upto 30% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+
+</section>
+<!-- Category Section Ends Here -->
+
+<!-- Reviews Secition starts here -->
+<section class="review" id="review">
+    <h1 class="heading"> Customer<span>Reviews</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="baker.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cum eum rem ea sed ab placeat incidunt! Molestiae minima, nam voluptas reiciendis inventore voluptate provident eos laboriosam saepe enim amet?</p>
+                <h3>Mahad Said</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="baker.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cum eum rem ea sed ab placeat incidunt! Molestiae minima, nam voluptas reiciendis inventore voluptate provident eos laboriosam saepe enim amet?</p>
+                <h3>Mahad Said</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="baker.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cum eum rem ea sed ab placeat incidunt! Molestiae minima, nam voluptas reiciendis inventore voluptate provident eos laboriosam saepe enim amet?</p>
+                <h3>Mahad Said</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Reviews Secition Ends here -->
+
+<!-- Blog Secition starts here -->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./blogs1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fa fa-user"></i>By User</a>
+                <a href="#"><i class="fa fa-calendar"></i>1st October 2022</a>
+            </div>
+            <h3>Fresh and Yummy Cakes</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nisi rerum qui dolore doloremque odio porro debitis iure mollitia.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        </div>
+        <div class="box">
+            <img src="blogs2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fa fa-user"></i>By User</a>
+                <a href="#"><i class="fa fa-calendar"></i>1st October 2022</a>
+            </div>
+            <h3>Fresh and Yummy Cakes</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nisi rerum qui dolore doloremque odio porro debitis iure mollitia.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        </div>
+        
+        <div class="box">
+            <img src="blogs3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fa fa-user"></i>By User</a>
+                <a href="#"><i class="fa fa-calendar"></i>1st October 2022</a>
+            </div>
+            <h3>Fresh and Yummy Cakes</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nisi rerum qui dolore doloremque odio porro debitis iure mollitia.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Blog Secition Ends here -->
+<!-- Footer Secition starts here -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>kDonaughts <i class="fa fa-birthday-cake"></i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="share">
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-whatsapp"></a>
+                <a href="" class="fa fa-twitter"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="" class="links"><i class="fa fa-phone"></i>+254 743-297-643</a>
+            <a href="" class="links"><i class="fa fa-phone"></i>+254 722-625-263</a>
+            <a href="" class="links"><i class="fa fa-envelope"></i>khadijasaid@gmail.com</a>
+            <a href="" class="links"><i class="fa fa-map-marker"></i>Pangani,Nairobi-00100</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home" class="links"><i class="fa fa-arrow-right"></i>Home</a>
+            <a href="#faetures" class="links"><i class="fa fa-arrow-right"></i>Features</a>
+            <a href="#products" class="links"><i class="fa fa-arrow-right"></i>Products</a>
+            <a href="#categories" class="links"><i class="fa fa-arrow-right"></i>Categories</a>
+            <a href="#review" class="links"><i class="fa fa-arrow-right"></i>Reviews</a>
+            <a href="#blogs" class="links"><i class="fa fa-arrow-right"></i>Blogs</a>
+
+        </div>
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest Updates</p>
+            <input type="email" placeholder="Enter Email" class="email">
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="./paymentcard.jpg" alt="Payment" class="payment-img">
+        </div>
+    </div>
+</section>
+<!-- Footer Secition Ends here -->
+  
+<div class="credit">
+    Created by <span>Mahad Said</span> | All Rights Reserved
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    </body>
+</html>
+<!-- Main Javascript Link -->
+<script src="Script.js"></script>
