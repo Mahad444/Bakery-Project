@@ -86,6 +86,7 @@ var swiper = new Swiper(".review-slider", {
       768: {
         slidesPerView: 2,
       },
+      // Media Query
       1020: {
         slidesPerView: 3,
       },
